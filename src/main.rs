@@ -30,8 +30,8 @@ async fn get_index() -> HttpResponse {
             r#"
                 <title>GCD Calculator</title>
                 <form action="/gcd" method="post">
-                <input type="text" name="n"/>
-                <input type="text" name="m"/>
+                <input type="text" name="n" value="0"/>
+                <input type="text" name="m" value="0"/>
                 <button type="submit">Compute GCD</button>
                 </form>
             "#,
